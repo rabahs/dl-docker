@@ -122,6 +122,7 @@ RUN pip --no-cache-dir install --upgrade ipython && \
 		sphinx \
 		wheel \
 		zmq \
+		coremltools \
 		&& \
 	python -m ipykernel.kernelspec
 
